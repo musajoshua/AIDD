@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script type='text/javascript' nonce='BG9LaNgsaSTCMoHFsM95lA==' src='https://contribution.usercontent.google.com/dPEnvGIhpkjdVJqjdSNOWilUr2TGMKXkO3svyhkxTXFYDCTmLy6Cj4ZjUDD2qJmQ7Ep_vIVTcM_xwHoTUpUtNNhMmHDT060me0sVIuGkXd_4NZx9YC9V3zS1xDxikNxwbFY2LbxvOonCiAAbJpnKdS7iYF9RBv4qRg0o6-2Du8tM3i4nFvgUc7p6Z7Naa4FMTj6BL_eTbnmwYOF0M_9w11o-x2kniuR8air6XQD6BnDKi2oRtj4Mi-tFKAMukxl3YER9LSTAJnfaIUiNEvQaT6WuDswkuPUDPPg3w9d_wASQbwbIqNRXzjXxuUeC2FZUDGfHsW6K14bXtfNK-0pzoD093eBbU-Bpcp1SuscKNUutv07bYdf5fwGUgY5GpetDsa9WNpOEUU7as8X66gTQeeFaJvaDGRqzIBykT0MyiasoXU4PyAtOj2CifP5lcHrFVImLOIS2UHogeJx92qWX8FrSxWraVuTCi6kf_6S1mXKWrWqQ1ldkqvayA4LdHNXPWcVi6aygtym6w24XuLRO_mFzl8MYJQbAsKErBXMbfqzdJgsCeVKQ_ktk4xOxqDKknh8nVbGlq6YUq5QYaqyvYikhFwK2DM_Q8YYEgWwfjUtOtWMrjBKAGdfrv_2mRLtiR6YlfVyR49bO1gDE06PRzuFvZ218maOgNXBRTG1F6sYJQuwaxslS1lV2rOBmV4jhhKNtG_gKuVI9XzJ_3shjH4OMzIkBJuHPKCC1AxdXbgT552MzSv_Ql3cw0EwsS7tb4RlAb7gYubXSjNh54FhryAoK_8gM7drYzx4yItDE'></script><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Geist+Mono:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "secondary": "#9f9da1",
+            "on-secondary-fixed-variant": "#5c5b5f",
+            "surface-container-highest": "#24252d",
+            "tertiary-fixed": "#ced6f5",
+            "on-tertiary": "#4a536c",
+            "on-primary": "#2724b8",
+            "secondary-dim": "#9f9da1",
+            "inverse-primary": "#494bd7",
+            "surface-container-high": "#1f1f26",
+            "tertiary-dim": "#c0c9e6",
+            "error-container": "#7f2737",
+            "on-primary-fixed-variant": "#4647d3",
+            "tertiary-fixed-dim": "#c0c9e6",
+            "secondary-container": "#3c3b3f",
+            "on-tertiary-container": "#424a63",
+            "primary": "#c0c1ff",
+            "surface-container-lowest": "#000000",
+            "on-error": "#490013",
+            "primary-fixed-dim": "#d1d0ff",
+            "inverse-surface": "#fbf8fc",
+            "on-background": "#e6e4ef",
+            "surface-tint": "#c0c1ff",
+            "on-tertiary-fixed-variant": "#4b546d",
+            "on-secondary": "#202023",
+            "primary-dim": "#b0b2ff",
+            "secondary-fixed": "#e5e1e6",
+            "on-surface": "#e6e4ef",
+            "primary-fixed": "#e1e0ff",
+            "surface-variant": "#24252d",
+            "secondary-fixed-dim": "#d6d3d8",
+            "error": "#ec7c8a",
+            "outline-variant": "#474750",
+            "primary-container": "#2f2ebe",
+            "on-surface-variant": "#abaab4",
+            "surface": "#0e0e11",
+            "inverse-on-surface": "#555458",
+            "surface-bright": "#2a2b35",
+            "on-secondary-container": "#c1bec3",
+            "outline": "#75757e",
+            "surface-container": "#19191e",
+            "on-tertiary-fixed": "#2f384f",
+            "on-primary-container": "#ccccff",
+            "on-primary-fixed": "#2622b7",
+            "background": "#0e0e11",
+            "on-secondary-fixed": "#403f43",
+            "tertiary": "#dee5ff",
+            "surface-dim": "#0e0e11",
+            "tertiary-container": "#ced6f5",
+            "on-error-container": "#ff97a3",
+            "error-dim": "#b95463",
+            "surface-container-low": "#131317"
+          },
+          fontFamily: {
+            "sans": ["Geist", "Inter", "sans-serif"],
+            "mono": ["Geist Mono", "monospace"],
+            "headline": ["Geist", "sans-serif"],
+            "body": ["Geist", "sans-serif"],
+            "label": ["Geist Mono", "monospace"]
+          },
+          borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+        },
+      },
+    }
+  </script>
+<style>
+    body { font-family: 'Geist', sans-serif; }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      font-size: 18px;
+    }
+    .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #0e0e11; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #474750; }
+  </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary selection:text-on-primary overflow-hidden">
+<!-- TopNavBar (Shared Component) -->
+<header class="fixed top-0 w-full h-[64px] bg-zinc-950/70 backdrop-blur-md border-b border-zinc-800/50 flex items-center justify-between px-6 z-50">
+<div class="flex items-center gap-8">
+<span class="text-lg font-semibold tracking-tighter text-zinc-50">TaskFlow</span>
+<nav class="hidden md:flex items-center gap-6 font-sans text-sm tracking-tight h-[64px]">
+<a class="text-zinc-50 border-b-2 border-indigo-400 pb-5 pt-5 transition-colors" href="#">Tasks</a>
+<a class="text-zinc-400 hover:text-zinc-200 transition-colors" href="#">Projects</a>
+<a class="text-zinc-400 hover:text-zinc-200 transition-colors" href="#">Team</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative group">
+<span class="material-symbols-outlined text-zinc-400 absolute left-3 top-1/2 -translate-y-1/2">search</span>
+<input class="bg-surface-container-lowest border border-outline-variant/30 text-xs py-1.5 pl-9 pr-4 rounded w-64 focus:outline-none focus:border-primary transition-all" placeholder="Search tasks..." type="text"/>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 text-zinc-400 hover:bg-zinc-800/50 transition-colors rounded">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="p-2 text-zinc-400 hover:bg-zinc-800/50 transition-colors rounded">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</button>
+<img alt="User initials avatar" class="w-8 h-8 rounded-full border border-zinc-700" data-alt="close-up of a minimalist user profile avatar with clean lines and professional dark grey background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2Y7H9Ap7oktIgod6aqXi5V4XGcppS91uonJxvBnU8qv9jkGJCvl2RJYHlXLjpZQGJsk99j8ngOuFdk--fDl6fA82KCGrbmzWsOUiIWUZ1gMFDwN2ND4GvijlGgKsxLlf54th24zESvKC_IyX4ASMEn44ozv_UwM0HDpraFQKRzQ6jIwITgvNHZBCLMF2nAjzjmza081gOpe-ncgD9X_BPn6OpfSrWkdAgkENltPbzpv_YWVhjhoEbUlDpHKVvesEXzDuL6B5SQtPQ"/>
+</div>
+</div>
+</header>
+<div class="flex h-screen pt-[64px]">
+<!-- SideNavBar (Shared Component) -->
+<aside class="h-full w-64 border-r border-zinc-800 bg-zinc-950 flex flex-col shrink-0">
+<div class="p-6">
+<div class="flex items-center gap-3 mb-8">
+<div class="w-8 h-8 bg-primary rounded flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined" data-icon="token">token</span>
+</div>
+<div>
+<h2 class="text-zinc-50 font-bold leading-tight">TaskFlow</h2>
+<p class="font-mono text-[11px] uppercase tracking-wider text-zinc-500">v1.0.4</p>
+</div>
+</div>
+<nav class="space-y-1">
+<a class="flex items-center gap-3 px-3 py-2 text-zinc-500 hover:bg-zinc-900 transition-all duration-200 font-mono text-[11px] uppercase tracking-wider group" href="#">
+<span class="material-symbols-outlined group-hover:text-zinc-300" data-icon="inbox">inbox</span>
+<span>Inbox</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 bg-zinc-800 text-zinc-50 font-medium font-mono text-[11px] uppercase tracking-wider transition-all duration-200" href="#">
+<span class="material-symbols-outlined" data-icon="check_circle">check_circle</span>
+<span>My Tasks</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-zinc-500 hover:bg-zinc-900 transition-all duration-200 font-mono text-[11px] uppercase tracking-wider group" href="#">
+<span class="material-symbols-outlined group-hover:text-zinc-300" data-icon="grid_view">grid_view</span>
+<span>Projects</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-zinc-500 hover:bg-zinc-900 transition-all duration-200 font-mono text-[11px] uppercase tracking-wider group" href="#">
+<span class="material-symbols-outlined group-hover:text-zinc-300" data-icon="group">group</span>
+<span>Team</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-zinc-500 hover:bg-zinc-900 transition-all duration-200 font-mono text-[11px] uppercase tracking-wider group" href="#">
+<span class="material-symbols-outlined group-hover:text-zinc-300" data-icon="insights">insights</span>
+<span>Analytics</span>
+</a>
+</nav>
+</div>
+<div class="mt-auto p-6 bg-zinc-900/40">
+<p class="font-mono text-[10px] text-zinc-600 mb-2">QUICK ACTIONS</p>
+<button class="w-full text-left font-mono text-[11px] uppercase tracking-wider text-primary py-1 hover:underline">New Project</button>
+<button class="w-full text-left font-mono text-[11px] uppercase tracking-wider text-zinc-400 py-1 hover:text-zinc-200 transition-colors">Invite Team</button>
+</div>
+</aside>
+<!-- Main Content (Dashboard Background) -->
+<main class="flex-1 bg-surface-container-low p-8 overflow-y-auto opacity-40 transition-opacity">
+<div class="max-w-5xl mx-auto">
+<div class="flex items-end justify-between mb-12">
+<div>
+<h1 class="text-display-lg font-semibold tracking-tighter mb-2">My Tasks</h1>
+<p class="text-zinc-500 font-mono text-xs uppercase tracking-widest">Active Sprint • Q3 Pipeline</p>
+</div>
+<div class="flex gap-2">
+<button class="bg-surface-container border border-outline-variant/30 px-4 py-2 text-xs font-mono uppercase tracking-widest text-zinc-400">Filter</button>
+<button class="bg-primary text-on-primary px-4 py-2 text-xs font-mono uppercase tracking-widest font-bold">New Task</button>
+</div>
+</div>
+<!-- Density-First Grid -->
+<div class="grid grid-cols-12 gap-1 border-t border-l border-outline-variant/10 bg-outline-variant/10">
+<!-- Row 1 -->
+<div class="col-span-1 bg-surface-container-low p-3 font-mono text-[10px] text-zinc-600">ID</div>
+<div class="col-span-6 bg-surface-container-low p-3 font-mono text-[10px] text-zinc-600">TASK NAME</div>
+<div class="col-span-2 bg-surface-container-low p-3 font-mono text-[10px] text-zinc-600">STATUS</div>
+<div class="col-span-3 bg-surface-container-low p-3 font-mono text-[10px] text-zinc-600">ASSIGNEE</div>
+<!-- Mock Item 1 -->
+<div class="col-span-1 bg-surface p-3 font-mono text-xs text-zinc-400">TF-204</div>
+<div class="col-span-6 bg-surface p-3 font-medium text-sm">Refactor Authentication Middleware</div>
+<div class="col-span-2 bg-surface p-3 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary shadow-[0_0_8px_rgba(192,193,255,0.4)]"></span>
+<span class="text-xs text-zinc-300">In Progress</span>
+</div>
+<div class="col-span-3 bg-surface p-3 flex items-center gap-2">
+<img class="w-5 h-5 rounded-full" data-alt="portrait of a focused developer professional with soft studio lighting and dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARWRj5ThB8fsamXarhg_-YEcQlyUZ5LSd2j1xUHaO4H0LZXQoyYxe61lcpEkmRfPjwdlDuZ2PvpMM3N1dxqklK8QcdEn3h6GzGoA0v5hG7q-OmVtwHtyPGmfNs4PDqmhNtJ3K3HxeAwBRNCiuCfcrrzhpe2A0n5J5cDmHEB7ngQqc0CcDkvJaklI4eAZNBshblcX536zwEAg5lbPwzv3lQx8LcW4oqrrDYoqEhsGaN3H3cU1y38_JEM1VC5WbFWpAFOE6PR2wHPjuc"/>
+<span class="text-xs text-zinc-400">Alex R.</span>
+</div>
+<!-- Mock Item 2 -->
+<div class="col-span-1 bg-surface p-3 font-mono text-xs text-zinc-400">TF-205</div>
+<div class="col-span-6 bg-surface p-3 font-medium text-sm">Database Migration for v1.1</div>
+<div class="col-span-2 bg-surface p-3 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-zinc-600"></span>
+<span class="text-xs text-zinc-300">Backlog</span>
+</div>
+<div class="col-span-3 bg-surface p-3 flex items-center gap-2">
+<img class="w-5 h-5 rounded-full" data-alt="portrait of a senior engineer with warm lighting and minimalist background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlsrXQiT1TKx8RDQUZsJL_MfAGK-YokWKO747QdTjBE2NXBzXzoOrRN58fqBg0t4p9HhffeQhSoqGxU5S5B8h6lYCykJVD5ZgGKe0M-bqp7mjGsKZLW84xnclf49iWRl-SHDfvl4XrptxMtd98M58oL9MKzCmYBxWw7vVvycQoJqH871PfS5QhbFcr63CU90lTWmI_ex9Q185vckoGH_2LviYqscLc91ffFCUqLSqWVu7VuXrFZIb_cLpcYY_tEKXBmpGNJbfJ8xKp"/>
+<span class="text-xs text-zinc-400">Jordan M.</span>
+</div>
+</div>
+</div>
+</main>
+<!-- Task Detail Panel (Slide-in) -->
+<div class="fixed top-0 right-0 w-[480px] h-full bg-surface-container-high border-l border-outline-variant/30 shadow-[0px_8px_24px_-4px_rgba(0,0,0,0.6)] z-[100] flex flex-col pt-[64px]">
+<!-- Panel Header -->
+<header class="p-6 flex items-start justify-between border-b border-outline-variant/10">
+<div class="flex-1 pr-4">
+<div class="flex items-center gap-2 mb-2">
+<span class="bg-surface-container-highest text-primary font-mono text-[10px] px-2 py-0.5 rounded-sm uppercase tracking-tighter">TF-204</span>
+<span class="text-zinc-500 text-[10px] font-mono">/ PROJECTS / BACKEND</span>
+</div>
+<textarea class="w-full bg-transparent border-none focus:ring-0 p-0 text-xl font-medium resize-none overflow-hidden h-auto leading-tight" rows="2">Refactor Authentication Middleware</textarea>
+</div>
+<button class="text-zinc-500 hover:text-zinc-100 p-1 hover:bg-surface-container-highest rounded transition-colors">
+<span class="material-symbols-outlined" data-icon="close">close</span>
+</button>
+</header>
+<!-- Scrollable Content -->
+<div class="flex-1 overflow-y-auto custom-scrollbar p-6 space-y-8">
+<!-- Metadata Grid -->
+<div class="grid grid-cols-2 gap-y-4 gap-x-6">
+<div class="space-y-1.5">
+<label class="font-mono text-[10px] text-zinc-500 uppercase tracking-widest">Status</label>
+<div class="flex items-center gap-2 bg-surface-container-lowest border border-outline-variant/20 px-3 py-2 rounded-sm cursor-pointer hover:border-primary/40 transition-colors">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="text-xs font-medium">In Progress</span>
+<span class="material-symbols-outlined ml-auto text-zinc-600 text-[16px]" data-icon="expand_more">expand_more</span>
+</div>
+</div>
+<div class="space-y-1.5">
+<label class="font-mono text-[10px] text-zinc-500 uppercase tracking-widest">Priority</label>
+<div class="flex items-center gap-2 bg-surface-container-lowest border border-outline-variant/20 px-3 py-2 rounded-sm cursor-pointer hover:border-primary/40 transition-colors">
+<span class="material-symbols-outlined text-error text-[16px]" data-icon="priority_high">priority_high</span>
+<span class="text-xs font-medium">High</span>
+<span class="material-symbols-outlined ml-auto text-zinc-600 text-[16px]" data-icon="expand_more">expand_more</span>
+</div>
+</div>
+<div class="space-y-1.5">
+<label class="font-mono text-[10px] text-zinc-500 uppercase tracking-widest">Due Date</label>
+<div class="flex items-center gap-2 bg-surface-container-lowest border border-outline-variant/20 px-3 py-2 rounded-sm">
+<span class="material-symbols-outlined text-zinc-400 text-[16px]" data-icon="calendar_today">calendar_today</span>
+<span class="text-xs font-medium">Oct 24, 2023</span>
+</div>
+</div>
+<div class="space-y-1.5">
+<label class="font-mono text-[10px] text-zinc-500 uppercase tracking-widest">Assignee</label>
+<div class="flex items-center gap-2 bg-surface-container-lowest border border-outline-variant/20 px-3 py-2 rounded-sm">
+<img class="w-5 h-5 rounded-full" data-alt="close up of a professional creative director with soft cinematic lighting on dark background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCq1vyfI7Y9SWvvfoh_nB2fj1joCaAI6mslK6MV-8v4MKKAKiiHpYUKzIwdJQo9BpK314vaUnoUdTfywU91r6ZLCyMOYYdY4DKQCsl3dLe6FFPInV8TjpOVwk_gCPn05IImFEhLWTFwOgmvJGaQ_mLwLlN4UyHmojzwdSMha9uCKb43N7RNhzHYqWrzAQEnZjqOOxnjZnN_u28_nC84FszpmFvB_C4p7PMXTtC0S7M4lH7hMKQqMnpXEx2HPn--Js7F2-kFXYg64Agv"/>
+<span class="text-xs font-medium">Alex Rivera</span>
+</div>
+</div>
+</div>
+<!-- Description -->
+<div class="space-y-3">
+<label class="font-mono text-[10px] text-zinc-500 uppercase tracking-widest">Description</label>
+<div class="prose prose-invert prose-sm max-w-none text-zinc-300">
+<p>The current authentication middleware is tightly coupled with the core router. We need to decouple it into a standalone service to support <strong>OAuth2.0</strong> and <strong>SSO</strong> providers in the next sprint.</p>
+<ul class="list-disc pl-4 space-y-2 mt-2 font-body text-xs text-zinc-400">
+<li>Separate JWT validation from user context injection</li>
+<li>Implement centralized error handling for auth failures</li>
+<li>Add request logging for security audits</li>
+</ul>
+</div>
+</div>
+<!-- Checklist -->
+<div class="space-y-3">
+<div class="flex items-center justify-between">
+<label class="font-mono text-[10px] text-zinc-500 uppercase tracking-widest">Subtasks (2/4)</label>
+<span class="text-[10px] font-mono text-zinc-600">50%</span>
+</div>
+<div class="w-full h-1 bg-surface-container-lowest rounded-full overflow-hidden">
+<div class="w-1/2 h-full bg-primary"></div>
+</div>
+<div class="space-y-1 pt-2">
+<label class="flex items-center gap-3 p-2 hover:bg-surface-container-highest transition-colors cursor-pointer group rounded-sm">
+<input checked="" class="w-4 h-4 bg-transparent border-outline-variant text-primary focus:ring-0 rounded-sm" type="checkbox"/>
+<span class="text-xs text-zinc-500 line-through">Define OAuth interfaces</span>
+</label>
+<label class="flex items-center gap-3 p-2 hover:bg-surface-container-highest transition-colors cursor-pointer group rounded-sm">
+<input checked="" class="w-4 h-4 bg-transparent border-outline-variant text-primary focus:ring-0 rounded-sm" type="checkbox"/>
+<span class="text-xs text-zinc-500 line-through">Audit existing route usage</span>
+</label>
+<label class="flex items-center gap-3 p-2 hover:bg-surface-container-highest transition-colors cursor-pointer group rounded-sm">
+<input class="w-4 h-4 bg-transparent border-outline-variant text-primary focus:ring-0 rounded-sm" type="checkbox"/>
+<span class="text-xs text-zinc-200">Refactor route-handler logic</span>
+</label>
+<label class="flex items-center gap-3 p-2 hover:bg-surface-container-highest transition-colors cursor-pointer group rounded-sm">
+<input class="w-4 h-4 bg-transparent border-outline-variant text-primary focus:ring-0 rounded-sm" type="checkbox"/>
+<span class="text-xs text-zinc-200">Write unit tests for middleware</span>
+</label>
+</div>
+</div>
+<!-- Activity Log -->
+<div class="space-y-4 pt-4 border-t border-outline-variant/10">
+<label class="font-mono text-[10px] text-zinc-500 uppercase tracking-widest">Activity History</label>
+<div class="space-y-3 font-mono text-[11px]">
+<div class="flex gap-3 text-zinc-500">
+<span class="text-zinc-600 shrink-0">12:04:22</span>
+<p><span class="text-zinc-300">Alex R.</span> changed status to <span class="text-primary">In Progress</span></p>
+</div>
+<div class="flex gap-3 text-zinc-500">
+<span class="text-zinc-600 shrink-0">11:58:10</span>
+<p><span class="text-zinc-300">System</span> triggered auto-link to <span class="text-zinc-400">PR #882</span></p>
+</div>
+<div class="flex gap-3 text-zinc-500">
+<span class="text-zinc-600 shrink-0">09:12:00</span>
+<p><span class="text-zinc-300">Jordan M.</span> added task to <span class="text-zinc-400">Backlog</span></p>
+</div>
+</div>
+</div>
+</div>
+<!-- Panel Footer -->
+<footer class="p-4 border-t border-outline-variant/10 flex items-center gap-2 bg-surface-container-highest/50">
+<div class="relative flex-1">
+<input class="w-full bg-surface-container-lowest border border-outline-variant/30 text-xs py-2 px-4 rounded focus:outline-none focus:border-primary" placeholder="Write a comment..." type="text"/>
+</div>
+<button class="bg-primary-container text-on-primary-container p-2 rounded hover:brightness-110 transition-all">
+<span class="material-symbols-outlined" data-icon="send">send</span>
+</button>
+</footer>
+</div>
+</div>
+<!-- Global Modal Overlay -->
+<div class="fixed inset-0 bg-surface/60 backdrop-blur-[2px] z-40 pointer-events-none"></div>
+</body></html>
